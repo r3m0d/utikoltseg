@@ -32,10 +32,10 @@
             <div class="col-6"><input type="text" id="nevinput"></div>
             <div class="col-1"></div>
             <div class="col-5 p-2">Üzemanyag fajtája:</div>
-            <div class="col-6"><input type="text" id="nevinput"></div>
+            <div class="col-6"><select name="uzemanyag" id="uzemanyag"><option value="benzin">Benzin</option><option value="gazolaj">Gázolaj</option></select></div>
             <div class="col-1"></div>
             <div class="col-5 p-2">Fogyasztási norma:</div>
-            <div class="col-6"><input type="text" id="nevinput"></div>
+            <div class="col-6"></div>
             <div class="col-1"></div>
             <div class="col-5 p-2">Utazás dátuma:</div>
             <div class="col-6"><input type="text" id="nevinput"></div>
@@ -64,7 +64,13 @@
             <div class="row p-2">
                 <div class="col-1"></div>
                 <div class="col-5">Útiköltség:</div>
-                <div class="col-6""><span id="utikoltseg"></span> Ft</div>
+                <div class="col-6"><span id="utikoltseg"></span> Ft</div>
+                <div class="col-1"></div>
+                <div class="col-5">Amortizáció:</div>
+                <div class="col-6"><span id="amortizacio"></span> Ft</div>
+                <div class="col-1"></div>
+                <div class="col-5"><strong>Összes elszámolható költség:</strong></div>
+                <div class="col-6"><strong><span id="osszesutikoltseg"></span> Ft</strong></div>
             </div>
         </div>
 
