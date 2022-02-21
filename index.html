@@ -53,7 +53,7 @@
             <div class="col-5 p-2">Üzemanyag egységára:</div>
             <div class="col-6"><input type="text" id="uzemanyagar"> Ft/l</div>
             <div class="col-5"></div>
-            <div class="col-7">Forrás: <a href="https://nav.gov.hu/ugyfeliranytu/uzemanyag">https://nav.gov.hu/ugyfeliranytu/uzemanyag</a></div>
+            <div class="col-7" id="forras">Forrás: <a href="https://nav.gov.hu/ugyfeliranytu/uzemanyag">https://nav.gov.hu/ugyfeliranytu/uzemanyag</a></div>
         </div>
 
         <strong>A megtett út adati</strong>
@@ -84,11 +84,23 @@
                 <div class="col-5"><strong>Összes elszámolható költség:</strong></div>
                 <div class="col-6"><strong><span id="osszesen"></span> Ft</strong></div>
                 <div class="col-6"></div>
-                <div class="col-6"><button id="nyomtatasbutton">Nyomtatás</button></div>
+                <div class="col-6"><button id="nyomtatasbutton" onclick="Nyomtatas()">Nyomtatás</button></div>
+            </div>
+            <div id="halo">
+                Aláírásommal igazolom, hogy az adatok a valóságnak megfelelnek.
+                <br>
+                <br>
+                .............................................2018.október 31.
+            </div>
+    
+            <div id="halo2" class="text-right">
+                .................................................. <br>
+                          aláírás
             </div>
         </div>
 
 
+        
 
         
         <script src="script.js"></script>

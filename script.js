@@ -1,4 +1,6 @@
-document.getElementById("nyomtatasbutton").style.display="none";
+document.getElementById("halo").style.display="none";
+
+document.getElementById("halo2").style.display="none";
 function mehet(szam){
     var adat = document.getElementById("selekcio").selectedIndex;
     var fogyasztas = 0;
@@ -55,8 +57,20 @@ function mehet(szam){
         document.getElementById("utikoltseg").innerHTML = utikoltseg;
         document.getElementById("amortizacio").innerHTML = amortizacio;
         document.getElementById("osszesen").innerHTML = osszesen;
-        document.getElementById("nyomtatasbutton").style.display="block";
     }
     
+
+}
+function Nyomtatas(){
+    document.getElementById("forras").style.display="none";
+    document.getElementById("nyomtatasbutton").style.display="none";
+    document.getElementById("halo").style.display="block";
+
+    document.getElementById("halo2").style.display="block";
+
+
+    window.print();
+
+
 
 }
